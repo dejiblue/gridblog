@@ -16,3 +16,11 @@ HOW TO USE
 5, Restart the server
 
 6, Fireup the application
+
+
+TO RUN A TEST
+
+You can run the below command in the terminal
+./vendor/bin/phpunit --filter name_of_test_case
+
+All the test cases can be found tests/Feature/PostTest.php
