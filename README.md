@@ -9,8 +9,10 @@ HOW TO USE
 
     If you run into "Undefined Index Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1", please downgrade your composer to version 1.10 using the following commmand "composer self-update --1" you can update it back after.
 
-3, Set up your virtual host on Apache2 or Nginx to point to the public directory of laravel (not really necessary as you can fireup the app by hiting the public directory of laravel)
+3, Run "php artisan migrate"
 
-4, Restart the server
+4, Set up your virtual host on Apache2 or Nginx to point to the public directory of laravel (not really necessary as you can fireup the app by hiting the public directory of laravel)
 
-5, Fireup the application
+5, Restart the server
+
+6, Fireup the application
